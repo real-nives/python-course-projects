@@ -1,1 +1,1 @@
-This is a repository of the projects that I worked on while going through the 100 Days of Code: Python course.
+This is a repository of the projects I've created while completing the 100 Days of Code: Python course.
