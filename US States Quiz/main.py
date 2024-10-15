@@ -27,10 +27,7 @@ while len(guessed_states) < 50:
     if answer_state == "Exit":
         
         #Create a list of the missed states.
-        missing_states = []
-        for state in all_states:
-            if state not in guessed_states:
-                missing_states.append(state)
+        missing_states = [state for state in all_states if state not in guessed_states]
 
         #Convert the list of missing states to a csv file.
         new_data = pandas.DataFrame(missing_states)
